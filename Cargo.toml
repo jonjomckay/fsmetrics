@@ -1,0 +1,11 @@
+[package]
+name = "fsmetrics"
+version = "0.1.0"
+authors = ["Jonjo McKay <jonjo@jonjomckay.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+fanotify-rs = { git = "https://github.com/ZhangLei-cn/fanotify-rs" }
+nix = "0.19.0"
